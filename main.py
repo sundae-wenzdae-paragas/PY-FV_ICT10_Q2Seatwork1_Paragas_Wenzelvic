@@ -26,14 +26,14 @@ club_members = [
 ]
 
 def Submit(e):
-    # Get the values from the input fields
+    # This gets the values from the input fields
     first_name = document.getElementById("Firstname").value
     last_name = document.getElementById("Lastname").value
 
-    # Combine the first and last names
+    #This takes the first name and last name from the input and combines them for checking using "in" in verify_member 
     full_name = first_name.strip() + " " + last_name.strip()
 
-    # Check whether the name is in the list
+    #This checks whether the name is in the list or not
     verify_member = full_name in club_members
 
     # Select the correct message without if/else
