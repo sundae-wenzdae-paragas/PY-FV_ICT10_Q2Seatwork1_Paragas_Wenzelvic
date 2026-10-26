@@ -1,7 +1,7 @@
 
 from pyscript import display, document
 
-# This is the list of club members
+# This is the list of club members, I just used AI to give me a random list of names.
 club_members = [
     "Juan Dela Cruz",
     "Maria Santos",
@@ -48,3 +48,5 @@ def Submit(e):
         target="output1",
         append=False
     )
+
+    #I used AI for this part to help fix what was wrong within my code because there was an error.
